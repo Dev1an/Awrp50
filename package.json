@@ -1,0 +1,5 @@
+{
+  "name": "AWRP50",
+  "description": "Bus selection listener and tally controller",
+  "main": "index.js"
+}
