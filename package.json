@@ -1,5 +1,5 @@
 {
-  "name": "AWRP50",
-  "description": "Bus selection listener and tally controller",
+  "name": "AWRP50-Manager",
+  "description": "Bus selection listener and tally controller for the panasonic AWRP50",
   "main": "index.js"
 }
