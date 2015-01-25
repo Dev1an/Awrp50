@@ -10,7 +10,7 @@ module.exports = new events.EventEmitter();
 const listener = net.createServer();
 listener.listen(myPort);
 listener.on('connection', function(sock) {
-	module.exports.emit('connection', sock);
+	module.exports.emit('connection', sock.remoteAddress);
 	
 	sock.on('data', function(data) {
 		var position = data.toString().search(/SBUS:[0-9]{2}:[0-9]{2}/g);
