@@ -27,7 +27,7 @@ listener.on('connection', function(sock) {
 
 	sock.on('error', function() {
 		module.exports.emit('close');
-		console.log('The TCP socket to the Panasonic controller at IP: %s caused an error!', ipAddress);
+		console.log('The TCP socket to the Panasonic controller at IP: %s caused an error!', sock.remoteAddress);
 		sock.destroy();
 	});
 });
