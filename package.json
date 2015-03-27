@@ -2,13 +2,13 @@
   "name": "awrp50",
   "description": "Bus selection listener and tally controller for the panasonic AWRP50",
   "main": "index.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "devian"
   },
   "license": "ISC",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/Dev1an/Awrp50.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dev1an/Awrp50.git"
   }
 }
