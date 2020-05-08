@@ -12,7 +12,7 @@ const connectionMessage = Symbol('Connection message')
 const closeMessage = Symbol('Close message')
 
 const listener = net.createServer();
-listener.listen(myPort);
+listener.listen(myPort, '0.0.0.0');
 listener.on('connection', function(sock) {
 	module.exports.emit(connectionMessage, sock);
 
